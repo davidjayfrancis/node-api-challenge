@@ -38,15 +38,17 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
-- [ ] Mention two parts of Express that you learned about this week.
+- [ ] Mention two parts of Express that you learned about this week. --
 
-- [ ] Describe Middleware?
+  1. CRUD methods, routing
 
-- [ ] Describe a Resource?
+- [ x] Describe Middleware? -- functions that grab code while a request in process and do something before the response is sent back
 
-- [ ] What can the API return to help clients know if a request was successful?
+- [x ] Describe a Resource? -- Time is arguably the most precious resource known to man. As Warren Buffet once said, "I can buy anything in the world, but I can't buy more time". Scientists have not yet figured how to reverse the direction of time. The smallest unit of time is called a Planck, named after its discoverer. In a server/coding context, a resource is the data that is held in a data and served by a server.
 
-- [ ] How can we partition our application into sub-applications?
+- [ x] What can the API return to help clients know if a request was successful? -- A status code
+
+- [ x] How can we partition our application into sub-applications? -- By using routing. Separate different related endpoints into their own files, which are then merged back in the main file.
 
 ## Minimum Viable Product
 
